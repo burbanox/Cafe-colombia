@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --main-color : #43291f;
+    --secondary-color : #f4f0bb;
+}
+header
+{
+    background-color: var(--main-color);
+    padding: 20px;
+}
+.header-icon
+{
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+}
+.header-icon > img 
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+}
+.header-icon > h1
+{
+    font-size: 2.8rem;
+}
+main
+{
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.shop-section
+{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.shop-section >div 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shop-section  img
+{
+    width: 200px;
+    height: 150px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.shop-section h3
+{
+    font-size: 1.7rem;
+}
+.shop-section p 
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+footer
+{
+    background-color: var(--main-color);
+    Color : var(--secondary-color);
+    padding: 50px 50px;
+}
+footer h3
+{
+    font-size: 2.0rem;
+}
+.social-icons
+{
+    margin-top: 50px;
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+}
+.social-icons img
+{
+    width: 50px;
+    height: 50px;
+}
